@@ -25,7 +25,35 @@ The goal of this project is to preprocess textual data and build a predictive mo
 - Python  
 - Pandas, NumPy  
 - Scikit-learn  
-- NLTK / SpaCy  
+- NLTK / SpaCy
+
+### How to Run
+1. Clone the repository:  
+   ```bash
+   git clone <repository-url>
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the notebook:
+   ```bash
+   jupyter notebook MiniProject1_TextCleaning_Vectorization.ipynb
+
+## Mini Project 2: Word2Vec & GloVe Embeddings
+
+### Problem Statement
+To capture semantic meaning and relationships between words in customer reviews, this project uses **Word2Vec** and **GloVe embeddings** for better sentiment analysis performance.
+
+### Features
+- Building Word2Vec and GloVe embeddings from customer reviews  
+- Visualizing word vectors and semantic similarities  
+- Applying embeddings to sentiment classification tasks  
+
+### Tech Stack
+- Python  
+- Gensim, SpaCy  
+- Matplotlib / Seaborn  
+- Scikit-learn
+  
 
 ### How to Run
 1. Clone the repository:  
